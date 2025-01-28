@@ -1,11 +1,1 @@
-Font PlayfairDisplay Regular
-Head color : #a1a1a1
-banner color : #f0f0f0
 
-Text: LIFESTYLE PHOTODIARY MUSIC TRAVEL
-Text color: #626262
-
-The perfect weekend getaway
-
-LEAVE A COMMENT
-Comment color: #c7c1b6
