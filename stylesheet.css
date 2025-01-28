@@ -1,0 +1,254 @@
+/* font add start */
+@font-face{
+    font-family: playfair-display;
+    src: url(font/playfair-display/PlayfairDisplay-Regular.ttf);
+}
+@font-face{
+    font-family: ubuntu;
+    src: url(font/ubuntu/Ubuntu-L.ttf);
+}
+/* font add end */
+/* CSS common part start */
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    
+}
+/* CSS common part end */
+/* header part start */
+header{
+    padding-top: 66px;
+}
+.header{
+    width: 90%;
+    margin:0 auto;
+    /* border: 2px black solid; */
+    overflow: hidden;
+}
+.logo{
+    width: 13%;
+    height: 3%;
+    /* border: 2px solid red; */
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 60%;
+    height: 3%;
+    /* border: 2px green solid; */
+    float: right;
+}
+.menu ul{
+    float: right;
+    margin: 20px;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    font-family: playfair-display;
+    font-size: 18px;
+    font-weight: 400;
+    color: #626262;
+    margin-right: 123px;
+    
+}
+.menu ul li:last-child a {
+    margin: 0;
+}
+/* header part end */
+/* banner part start */
+.banner_img{
+    width: 100%;
+    height: 50.3%;
+    margin: 0 auto;
+}
+.banner_img img{
+    width: 100%;
+}
+/* banner part end */
+/* banner text start */
+
+.banner_text{
+    width: 85%;
+    height: 5%;
+    margin: 0 auto;
+    /* border: 2px orange solid ; */
+}
+.text {
+    width: 100%;
+}
+.text h2{
+    font-family: ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 50px;
+    color: #d9d6ce;
+}
+.text h1{
+    font-family: playfair-display;
+    font-size: 25px;
+    font-weight: 500;
+    color: #626262;
+    padding: 15px 0px;
+}
+.text p{
+    font-family: playfair-display;
+    font-size: 18px;
+    font-weight: 400;
+    color: #d9d6ce;
+    padding-bottom: 50px;
+}
+.text h3{
+    font-family: ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    color: #d9d6ce;
+    padding-bottom: 80px;
+}
+.text h4{
+    font-family: ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    color: #d9d6ce;
+}
+/* banner text end */
+/* heru part start */
+ .heru{
+    overflow: hidden;
+    /* padding: 10% 0%; */
+ }
+ .img1{
+    width:48%;
+    height: 28%;
+    padding: 3% 0%;
+    /* border: 2px solid blue ; */
+    float: left;
+ }
+ .img1 img {
+    width: 100%;
+ }
+ .img2{
+    width:48%;
+    height: 28%;
+    padding: 3% 0%;
+    /* border: 2px solid rgb(240, 11, 187) ; */
+    float: right;
+ }
+ .img2 img {
+    width: 100%;
+ }
+/* heru part end */
+.mail{
+    padding: 100px 0px;
+
+}
+.bg{
+    background-color:#f0f0f0 ;
+    padding: 60px 0px;
+    text-align: center;
+    outline: none;
+}
+.bg h1{
+    font-family: playfair-display;
+    font-size: 30px;
+    font-weight: 500;
+    color: #333333;
+    border: none;
+    outline: none;
+}
+input{
+    background-color:#f0f0f0 ;
+    color: #9b9b9b;
+    padding: 20px;
+    font-size: 16px;
+    border-bottom: 2px black solid;
+    margin-top: 80px;
+}
+.fa-paper-plane{
+    font-size: 30px;
+    font-weight: 300;
+    border: none;
+    outline: none;
+    position: absolute;
+    cursor: pointer;
+} 
+
+/* load more button start */
+.load{
+    padding-top: 3%;
+    padding-bottom: 10%;
+}
+.load_more{
+    width: 11%;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px #626262 solid;
+    padding: 20px;
+}
+.load_more a{
+    width: 100%;
+    font-family: playfair-display;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+    background-color: white;
+}
+/* load more button end */
+/* footer part start */
+footer{
+    width: 100%;
+    margin: 0 auto;
+    /* border: 2px black solid; */
+    background-color: #f0f0f0;
+}
+.conatiner{
+    width: 84.699%;
+    margin-left: 15%;
+    /* border: 2px rgb(210, 5, 5) solid; */
+    overflow: hidden;
+    padding: 40px 0px;
+    
+}
+.terms{
+    width: 30%;
+    /* border: 1px green solid; */
+    float: left;
+}
+.terms h2{
+    float: left;
+    font-family: playfair-display;
+    font-size: 24px;
+    font-weight: 500;
+    color: #202020;
+}
+span{
+    padding: 0 10px;
+    font-family: playfair-display;
+    font-size: 24px;
+    font-weight: 500;
+    color: #202020;
+}
+.follow{
+    width: 60%;
+    /* border: 1px rgb(10, 157, 248) solid; */
+    float: right;
+}
+.follow h3{
+    margin: 0 60px;
+    float: right;
+    font-family: playfair-display;
+    font-size: 24px;
+    font-weight: 500;
+    color: #202020;
+}
+.fa-facebook-f, .fa-twitter, .fa-instagram{
+    margin-right: 20px;
+}
+/* footer part end */
